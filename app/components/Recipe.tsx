@@ -62,7 +62,7 @@ export function Recipe(props: NonNullable<RECIPES_QUERYResult[0]>) {
       {/* Steps */}
       {steps && (
         <section className="lg:col-span-12">
-          <h2 className="text-xl font-semibold mb-2">Let's Cook</h2>
+          <h2 className="text-xl font-semibold mb-2">Let&apos;s Cook</h2>
           <PortableText value={steps} components={components} />
         </section>
       )}
