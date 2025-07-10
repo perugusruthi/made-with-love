@@ -8,11 +8,8 @@ import { components } from './portableTextComponents'
 export function Recipe(props: NonNullable<RECIPES_QUERYResult[0]>) {
   const {
     title,
-    author,
     mainImage,
     finalImages,
-    publishedAt,
-    categories,
     description,
     servings,
     time,

@@ -3,7 +3,6 @@ import { RECIPE_QUERY } from "@/sanity/lib/queries";
 import { Recipe } from "../../components/Recipe";
 import { notFound } from "next/navigation";
 import { draftMode } from "next/headers";
-import { client } from "../../../sanity/lib/client";
 
 export default async function Page({
   params,

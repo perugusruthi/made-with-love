@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export function RecipeCard(props: RECIPES_QUERYResult[0]) {
-  const { title, author, mainImage, publishedAt, categories } = props
+  const { title, mainImage } = props
 
   return (
     <Link href={`/recipes/${props.slug?.current}`} className="group">
